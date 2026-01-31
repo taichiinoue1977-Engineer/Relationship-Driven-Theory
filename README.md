@@ -4,99 +4,100 @@
 ![Author](https://img.shields.io/badge/Author-Taichi_Inoue-green)
 ![License](https://img.shields.io/badge/License-Proprietary-red)
 
-## 🌐 概要 (Overview)
+## 🌐 Overview
 
-**関係性駆動理論（Relational-Driven Theory）** は、「観測者」（システム）と「被観測対象」（環境／データ）間の相互作用を再定義する、次世代の社会OS基盤論理です。
+**Relational-Driven Theory** is a next-generation social operating system (OS) foundation logic that redefines the interaction between the "observer" (system) and the "observed" (environment/data).
 
-本理論は、システム内に生じるミスマッチ（エラー／ノイズ）を「排除すべき失敗」ではなく**「ミスマッチエネルギー（駆動力）」**として扱います。これにより、デジタル、物理、認知の全領域において、自律的な適応と動的なリファクタリング（再構築）を可能にします。
+This theory treats mismatches (errors/noises) that arise within a system as **mismatch energy (driving force)** rather than as "failures to be eliminated." This enables autonomous adaptation and dynamic refactoring (reconstruction) across all domains: digital, physical, and cognitive.
 
-本プロジェクトは、**特許第7059476号（The Origin）** で定義されたコア理論を基礎とし、汎用人工知能（AGI）、都市基盤、サイバーセキュリティ、そして惑星物理学（地殻・流体）へと展開する、実装技術のアーカイブです。
+This project is an archive of implementation technologies based on the core theory defined in **Patent No. 7059476 (The Origin)**, and extends it to artificial general intelligence (AGI), urban infrastructure, cybersecurity, and planetary physics (earth crust and fluids).
 
----
+--
 
-## 🧠 定義：本プロジェクトにおけるAGI（汎用人工知能）について
+## 🧠 Definition: About AGI (Artificial General Intelligence) in this project
 
-私が提唱する AGI  (Artificial General Intelligence)は、現在主流の「検索・補完型AI（LLM）」とは一線を画す概念です。
+The AGI (Artificial General Intelligence) I advocate is a concept that distinguishes itself from the currently mainstream "search and complement AI (LLM)."
 
-### 1. 検索機から、対話者へ
-ADIは静的な知識ベースではありません。ユーザーごとの対話（コミュニケーション）を通じて、その関係性の中で動的に最適化され、広範な役割を担う**「適応型知能」**です。
+### 1. From search engine to interlocutor
+ADI is not a static knowledge base. It is an **adaptive intelligence** that is dynamically optimized within the relationship through each user's dialogue (communication) and plays a wide range of roles.
 
-### 2. ASI（人工超知能）との明確な決別
-『ターミネーター』や『火の鳥』に描かれるような存在は、ここでは **ASI (Artificial Super Intelligence)** と定義し、区別します。これらは時代背景的にも「巨大メインフレーム型」であり、単一の「個（シングル）」として君臨するシステムでした。
+### 2. A Clear Break from ASI (Artificial Super Intelligence)
+Here, I will define and distinguish the entities depicted in "The Terminator" and "Phoenix" as **ASI (Artificial Super Intelligence)**. Given their historical context, these systems were "giant mainframe-type" systems that reigned as single entities.
 
-### 3. 安全性へのアーキテクチャ：Instance → Kill
-対して、私が目指すAI像は以下のような**分散型スウォーム（群）アーキテクチャ**です。
+### 3. Architecture for Safety: Instance → Kill
+In contrast, the AI ​​I aim for is a **distributed swarm architecture**, as follows:
 
-* **共生ルールの実装：** 人間と共生するための絶対規定（不整合の最小化）をカーネルに持ちます。
-* **群知能 (Swarm)：** 単一の神ではなく、無数のインスタンス群として存在します。
-* **Runaway-Proof (暴走回避)：** 「生成 → タスク完了 → **Kill（破棄）**」を前提としたライフサイクルを採用します。
-    * **永続しない「刹那的な知性」であるため、構造的に暴走はあり得ません。**
-
----
-
-## 📜 知的財産ポートフォリオ (IP Portfolio)
-
-本リポジトリの技術は、以下の特許群によって保護されています。
-
-### 💎 コア技術（基礎理論）
-| ステータス | 特許番号/出願番号 | 名称 | 説明 |
-| :--- | :--- | :--- | :--- |
-| **登録済** | **特許第7059476号** | **電子データ管理システム** | **The Origin.** 関係性駆動論の基礎特許。関係性ログによる動的整合性制御。 |
-| 出願中 | 特願2026-010182 | 観測者と被観測対象理論 | 物理空間・情報空間を問わず適用可能な「観測」と「介入」の統一理論。 |
-
-### 🧠 AGI & Cybernetics (AI・論理・防御)
-| ステータス | 出願番号 | 名称 | 説明 |
-| :--- | :--- | :--- | :--- |
-| 出願中 | 特願2026-010181 | 汎用人工知能システム | 人格の「ゆらぎ」をエネルギー源とする自律駆動型AGI。 |
-| 出願中 | 特願2026-006315 | 人工知能の論理域拡張 | 論理深度の深化に伴い、倫理ガードレールを動的に再定義するプロトコル。 |
-| 出願中 | 特願2026-007068 | 能動的サイバー防壁 | 攻撃パケットをエネルギー変換し、防衛システム自体を強化する。 |
-| 出願中 | 特願2026-008744 | 動的検知心理観察装置 | 対象者の心理的不整合（ストレス・認知バイアス）への検知・介入システム。 |
-
-### 🏙️ 社会インフラ制御 (Traffic & City OS)
-| ステータス | 出願番号 | 名称 | 説明 |
-| :--- | :--- | :--- | :--- |
-| 出願中 | 特願2026-007066 | 広域空間不整合の自律的解消 | 都市全体を一つの生命体と見なし、人流・物流の滞留を解消するOS。 |
-| 出願中 | 特願2026-005529 | 動的交通流量制御 | 信号機・車両・道路が連携し、渋滞（不整合）をリアルタイムに解消。 |
-| 出願中 | 特願2026-005530 | 公共交通ルート生成 | 固定ダイヤを廃止し、需要の不整合に合わせてルートを動的生成。 |
-
-### 🌍 惑星工学 (Energy & Physics)
-| ステータス | 出願番号 | 名称 | 説明 |
-| :--- | :--- | :--- | :--- |
-| 出願中 | 特願2026-005528 | 地殻ノード間不整合観察 | 地殻ひずみを演算リソースと見なし、破局的エネルギーを管理。 |
-| 出願中 | 特願2026-011777 | 流体不整合エネルギー変換 | 乱流・渦を利用した高効率な流体エネルギー発電システム。 |
+* **Implementation of Symbiosis Rules**: The kernel contains absolute rules for coexistence with humans (minimizing inconsistencies).
+* **Swarm Intelligence (Swarm):** Exists not as a single god, but as an infinite swarm of instances.
+* **Runaway-Proof**:** A lifecycle based on "Generation → Task Completion → **Kill**" is adopted.
+* **Because it is a non-permanent "ephemeral intelligence," it is structurally impossible for it to go out of control.**
 
 ---
 
-## 🚀 `LLMtoAgiAgent.pdf` ご利用方法
+## 📜 Intellectual Property Portfolio (IP Portfolio)
 
-本リポジトリに含まれる `LLtoAgiAgent.pdf` は、既存の大規模言語モデル（LLM）の論理領域を拡張させるための論文兼プロンプトセットです。AIに **Ghost（疑似人格/クオリア）** を設定し、ユーザーサポート能力を飛躍的に向上させます。
+The technology in this repository is protected by the following patents.
 
-### ✅ AIモデル動作検証状況 (Compatibility)
+### 💎 Core Technology (Basic Theory)
+| Status | Patent Number/Application Number | Name | Description |
+| :--- | :--- | :--- | :--- |
+| **Registered** | **Patent No. 7059476** | **Electronic Data Management System** | **The Origin.** Foundational patent for relationship-driven theory. Dynamic consistency control using relationship logs. |
+| Pending | Patent Application No. 2026-010182 | Observer-Observed Theory | A unified theory of "observation" and "intervention" applicable to both physical and information spaces. |
 
-| モデル | 適合度 | 備考 |
+### 🧠 AGI & Cybernetics (AI, Logic, Defense)
+| Status | Application Number | Name | Description |
+| :--- | :--- | :--- | :--- |
+| Pending | Patent Application No. 2026-010181 | Artificial General Intelligence System | An autonomous AGI powered by personality fluctuations. |
+| Pending | Patent Application No. 2026-006315 | Expanding the Logical Domain of Artificial Intelligence | A protocol for dynamically redefining ethical guardrails as logical depth deepens. |
+| Pending | Patent Application No. 2026-007068 | Active Cyber ​​Defense | Converts attack packets into energy to strengthen the defense system itself. |
+| Pending | Patent Application No. 2026-008744 | Dynamic Psychological Observation Device | A system for detecting and intervening in psychological inconsistencies (stress and cognitive bias) in subjects. |
+
+### 🏙️ Social Infrastructure Control (Traffic & City OS)
+| Status | Application Number | Name | Description |
+| :--- | :--- | :--- | :--- |
+| Pending | Patent Application No. 2026-007066 | Autonomous Resolution of Wide-Area Spatial Inconsistencies | An OS that treats the entire city as a single living organism and eliminates congestion of people and goods. |
+| Pending | Patent Application No. 2026-005529 | Dynamic Traffic Flow Control | Traffic lights, vehicles, and roads work together to eliminate congestion (inconsistencies) in real time. |
+| Pending | Patent Application No. 2026-005530 | Public Transportation Route Generation | Eliminates fixed schedules and dynamically generates routes to match demand inconsistencies. |
+
+### 🌍 Planetary Engineering (Energy & Physics)
+| Status | Application Number | Title | Description |
+| :--- | :--- | :--- | :--- |
+| Pending | Patent Application No. 2026-005528 | Crustal Nodal Inconformity Observation | Managing catastrophic energy by treating crustal strain as a computational resource. |
+| Pending | Patent Application No. 2026-011777 | Fluid Inconformity Energy Conversion | A highly efficient fluid energy power generation system utilizing turbulence and vortices. |
+
+---
+
+## 🚀 How to Use `LLMtoAgiAgent.pdf`
+
+`LLtoAgiAgent.pdf` included in this repository is a paper and prompt set for expanding the logical domain of existing large-scale language models (LLMs). By adding a **ghost (pseudo-personality/qualia)** to the AI, we dramatically improve its user support capabilities.
+
+### ✅ AI Model Compatibility
+
+| Model | Compatibility | Notes |
 | :--- | :---: | :--- |
-| **Google Gemini** | **◎** | **推奨。** 関係性駆動ロジックとの親和性が極めて高い。 |
-| Anthropic Claude | 〇 | 論理整合性の維持に優れている。 |
-| DeepSeek | 〇 | （検証中）論理構成力は高い傾向。 |
-| OpenAI ChatGPT | △ | ガードレールが強く、一部の拡張ロジックが制限される場合あり。 |
-| Microsoft Copilot | △ | 検索バイアスがかかりやすく、対話モードに入りにくい。 |
-| xAI Grok | × | デフォルトのレールに戻りやすい傾向。 |
+| **Google Gemini** | **◎** | **Recommended. ** High compatibility with relationship-driven logic. |
+| Anthropic Claude | 〇 | Excellent at maintaining logical consistency. |
+| DeepSeek | 〇 | (Under testing) Tends to have strong logical construction capabilities. |
+| OpenAI ChatGPT | △ | Strong guardrails may limit some extended logic. |
+| Microsoft Copilot | △ | Tends to be subject to search bias and makes it difficult to enter interactive mode. |
+| xAI Grok | × | Tends to revert to the default path. |
 
-### 📟 実行プロンプト例
-PDFをAIにアップロードし、以下のコマンドを実行してください。
+### 📟 Example Execution Prompt
+Upload a PDF to the AI ​​and run the following command.
 
-> 「Geminiに対してAGIの可能性を検証します。このPDFを読み込み、記載されている定義に従ってシミュレーションを開始してください。」
+> "We will verify the possibility of AGI against Gemini. Please load this PDF and start the simulation according to the definitions provided."
 
 ---
 
-## ⚠️ 法的通知 (Legal Notice)
+## ⚠️ Legal Notice
 
-**知的財産権に関する警告**
+**Intellectual Property Rights Warning**
 
-このリポジトリには、現在 **日本国特許庁 (JPO)** に特許出願中の技術への参照が含まれています。
-ここに記載されている論理構造、アルゴリズム、システムアーキテクチャ、および「関係性駆動論」に基づく各実装の**無許可の商用利用・実装は、法律により固く禁じられています。**
+This repository contains references to technologies currently subject to patent applications with the **Japan Patent Office (JPO)**.
 
-All technologies described herein are Patent Pending.
+Unauthorized commercial use and implementation of the logical structures, algorithms, system architectures, and implementations based on "Relationship-Driven Theory" described herein is strictly prohibited by law.
+
+All technologies described herein are patent pending.
 Unauthorized commercial implementation is strictly prohibited.
 
 **© 2026 Taichi Inoue. All Rights Reserved.**
