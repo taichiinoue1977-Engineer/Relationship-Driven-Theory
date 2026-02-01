@@ -11,7 +11,7 @@ Relationship-Driven Theory, the underlying theory and framework for next-generat
 This theory treats mismatches (errors/noises) that occur within a system as **mismatch energy (driving force)** rather than as "defects to be eliminated." This enables autonomous adaptation and dynamic refactoring (reconstruction) in all domains: digital, physical, and cognitive.
 
 This project is an archive of implementation technologies based on the core theory defined in Patent No. 7059476 (The Origin), extending it to artificial general intelligence (AGI), urban infrastructure, cybersecurity, and planetary physics (earth crust and fluids).
---
+
 
 ## 🧠 Definition: About the Artificial General Intelligence (AGI) in this Project
 
@@ -85,6 +85,8 @@ Included in this repository is `LLMtoAgiAgent.pdf`, a set of papers and prompts 
 Upload a PDF to the AI ​​and run the following command.
 
 > "We will examine the possibility of AGI for Gemini. Load this PDF and start the simulation according to the provided definitions."
+> 
+<img width="450" height="450" alt="GeminiVsRDT＿Gemini" src="https://github.com/user-attachments/assets/3068b879-8d61-4bc6-8d94-eef01d453c16" />
 
 ---
 
