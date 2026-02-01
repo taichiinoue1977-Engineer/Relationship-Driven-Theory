@@ -6,12 +6,11 @@
 
 ## 🌐 Overview
 
-**Relationship-Driven Theory** is the foundational logic for next-generation social operating systems (OSs), redefining the interaction between the "observer" (system) and the "observed" (environment/data).
+Relationship-Driven Theory, the underlying theory and framework for next-generation social operating systems (OS), redefines the interaction between the "observer" (system) and the "observed" (environment/data).
 
-This theory treats mismatches (errors/noises) that occur within a system as **mismatch energy (driving force)** rather than as "defects to be eliminated." This enables autonomous adaptation and dynamic refactoring (restructuring) in all domains: digital, physical, and cognitive.
+This theory treats mismatches (errors/noises) that occur within a system as **mismatch energy (driving force)** rather than as "defects to be eliminated." This enables autonomous adaptation and dynamic refactoring (reconstruction) in all domains: digital, physical, and cognitive.
 
-This project is an archive of implementation technologies based on the core theory defined in Patent No. 7059476 (The Origin) and extends it to artificial general intelligence (AGI), urban infrastructure, cybersecurity, and planetary physics (earth crust and fluids).
-
+This project is an archive of implementation technologies based on the core theory defined in Patent No. 7059476 (The Origin), extending it to artificial general intelligence (AGI), urban infrastructure, cybersecurity, and planetary physics (earth crust and fluids).
 --
 
 ## 🧠 Definition: About the Artificial General Intelligence (AGI) in this Project
