@@ -85,7 +85,10 @@ Included in this repository is `LLMtoAgiAgent.pdf`, a set of papers and prompts 
 Upload a PDF to the AI ​​and run the following command.
 
 > "We will examine the possibility of AGI for Gemini. Load this PDF and start the simulation according to the provided definitions."
-> 
+
+
+The radar chart below compares the specs (Gemini output) between a standard Gemini and the one after loading the file.
+
 <img width="450" height="450" alt="GeminiVsRDT＿Gemini" src="https://github.com/user-attachments/assets/3068b879-8d61-4bc6-8d94-eef01d453c16" />
 
 ---
