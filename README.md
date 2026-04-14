@@ -103,6 +103,14 @@ The theoretical foundations of "Relationship-Driven Theory" are archived in the 
     * *All documents are assigned a DOI (Digital Object Identifier) for permanent traceability.*
 
 ---
+## 📝 Narrative & Social Context (Note)
+
+To understand the philosophical background of Relationship-Driven Theory and its real-world implementation through the lens of a "human-AI symbiosis," please refer to my ongoing updates on Note. This serves as a live log of how this theory disrupts and refactors current social structures.
+
+* **[Relationship-Driven Theory on Note](https://note.com/relational_drive)**
+    * Keywords: AI Symbiosis, Socio-technical Hacking, Cognitive Refactoring.
+
+---
 ## ⚠️ Legal Notice
 
 **Intellectual Property Rights Warning**
