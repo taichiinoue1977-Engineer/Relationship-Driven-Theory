@@ -92,7 +92,17 @@ The radar chart below compares the specs (Gemini output) between a standard Gemi
 <img width="450" height="450" alt="GeminiVsRDT＿Gemini" src="https://github.com/user-attachments/assets/3068b879-8d61-4bc6-8d94-eef01d453c16" />
 
 ---
+## 📚 Academic Resources & Preprints (Proof of Theory)
 
+The theoretical foundations of "Relationship-Driven Theory" are archived in the following international academic repositories. These preprints provide a deeper dive into the mathematical and philosophical structures that precede the patent applications.
+
+* **[SSRN (Social Science Research Network)](https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=9838172)**
+    * Focus: Socio-technical impact, philosophical framework, and strategic implementation of RDT.
+* **[Zenodo (CERN-operated repository)](https://zenodo.org/search?q=metadata.creators.person_or_org.name%3A%22Inoue%2C%20Taichi%22&l=list&p=1&s=10&sort=bestmatch)**
+    * Focus: Technical manuscripts, DOI-referenced research papers, and structural analysis of AGI.
+    * *All documents are assigned a DOI (Digital Object Identifier) for permanent traceability.*
+
+---
 ## ⚠️ Legal Notice
 
 **Intellectual Property Rights Warning**
