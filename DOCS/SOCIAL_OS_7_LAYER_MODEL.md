@@ -1,1 +1,2 @@
-
+Overview: Social OS 7-Layer Reference Model
+This model structurally defines human society, intelligence, ethics, culture, and applications, with Patent No. 7059476 (Relationship-Driven Theory) serving as the foundational OS (Layer 1)[cite: 1, 2]. Just as the OSI reference model layered communication protocols, this model layers "Drive" and "Alignment" to achieve encapsulation, preventing local inconsistencies (errors) from causing a total system crash.
